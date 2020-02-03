@@ -25,6 +25,7 @@ def decode(digits, base):
 	return sum(nums)
 	# TODO: Decode digits from hexadecimal (base 16)
 	
+	
 	# TODO: Decode digits from any base (2 up to 36)
 	# ...
 
