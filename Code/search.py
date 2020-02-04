@@ -38,10 +38,10 @@ def binary_search(array, item):
 def binary_search_iterative(array, item):
 	# TODO: implement binary search iteratively here
 	array = sorted(array)
-	mid = len(array)//2
 	low = 0
 	high = len(array) - 1
 	while low <= high:
+		mid = (low + high)//2
 		if array[mid] == item:
 			return mid
 		elif array[mid] < item:

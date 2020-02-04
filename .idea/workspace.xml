@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="af6a40c7-0096-46c6-8f42-f5654d11011e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/palindromes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/palindromes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Code/search.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/search.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -148,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580703501701</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="search algorithms partially done">
+      <created>1580845302149</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1580845302149</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,6 +172,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="binary decode added" />
-    <option name="LAST_COMMIT_MESSAGE" value="binary decode added" />
+    <MESSAGE value="search algorithms partially done" />
+    <option name="LAST_COMMIT_MESSAGE" value="search algorithms partially done" />
   </component>
 </project>
