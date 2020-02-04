@@ -17,9 +17,17 @@ def is_palindrome(text):
     # return is_palindrome_recursive(text)
 
 
+def clean_text(text):
+    cleaned_text = [char.lower() for char in text if char.isalpha()]
+    return cleaned_text
+    
+
 def is_palindrome_iterative(text):
     # TODO: implement the is_palindrome function iteratively here
-    pass
+    cleaned_text = clean_text(text)
+    for index in range(len(cleaned_text)):
+        if cleaned_text[index] != cleaned_text[index-1]:
+            pass
     # once implemented, change is_palindrome to call is_palindrome_iterative
     # to verify that your iterative implementation passes all tests
 
