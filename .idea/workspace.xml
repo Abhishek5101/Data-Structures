@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="af6a40c7-0096-46c6-8f42-f5654d11011e" name="Default Changelist" comment="Number bases and">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/bases.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/bases.py" afterDir="false" />
-    </list>
+    <list default="true" id="af6a40c7-0096-46c6-8f42-f5654d11011e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580850235326</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Number bases and Search Algorithms done">
+      <created>1580886369592</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1580886369592</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,6 +193,7 @@
     <MESSAGE value="binary decode added" />
     <MESSAGE value="search algorithms partially done" />
     <MESSAGE value="search done" />
-    <option name="LAST_COMMIT_MESSAGE" value="search done" />
+    <MESSAGE value="Number bases and Search Algorithms done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Number bases and Search Algorithms done" />
   </component>
 </project>
