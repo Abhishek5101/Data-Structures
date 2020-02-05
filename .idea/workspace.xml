@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="af6a40c7-0096-46c6-8f42-f5654d11011e" name="Default Changelist" comment="">
+    <list default="true" id="af6a40c7-0096-46c6-8f42-f5654d11011e" name="Default Changelist" comment="Number bases and">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/search.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/bases.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/bases.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +16,7 @@
   </component>
   <component name="ProjectId" id="1WxVjtRbgGGp6vTbMnZfFGphnsG" />
   <component name="PropertiesComponent">
+    <property name="TODO_SCOPE" value="All Places" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -161,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580846227520</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="search done">
+      <created>1580850235326</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1580850235326</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -180,6 +188,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="binary decode added" />
     <MESSAGE value="search algorithms partially done" />
-    <option name="LAST_COMMIT_MESSAGE" value="search algorithms partially done" />
+    <MESSAGE value="search done" />
+    <option name="LAST_COMMIT_MESSAGE" value="search done" />
   </component>
 </project>
