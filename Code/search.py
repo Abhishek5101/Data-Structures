@@ -10,6 +10,12 @@ def linear_search(array, item):
 
 
 def linear_search_iterative(array, item):
+	"""
+	Time complexity: O(n)
+	:param array:
+	:param item:
+	:return:
+	"""
 	# loop over all array values until item is found
 	for index, value in enumerate(array):
 		if item == value:
@@ -18,6 +24,13 @@ def linear_search_iterative(array, item):
 
 
 def linear_search_recursive(array, item, index=0):
+	"""
+	Time Complexity O(n)
+	:param array:
+	:param item:
+	:param index:
+	:return:
+	"""
 	# TODO: implement linear search recursively here
 	if index >= len(array):
 		return None
@@ -38,6 +51,12 @@ def binary_search(array, item):
 
 
 def binary_search_iterative(array, item):
+	"""
+	Time Complexity: O(log n)
+	:param array:
+	:param item:
+	:return:
+	"""
 	# TODO: implement binary search iteratively here
 	array = sorted(array)
 	low = 0
@@ -56,6 +75,14 @@ def binary_search_iterative(array, item):
 
 
 def binary_search_recursive(array, item, left=None, right=None):
+	"""
+	Time complexity: O(log n)
+	:param array:
+	:param item:
+	:param left:
+	:param right:
+	:return:
+	"""
 	# TODO: implement binary search recursively here
 	array = sorted(array)
 	mid = (left + right)//2

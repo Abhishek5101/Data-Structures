@@ -17,7 +17,9 @@ BASE_DECODE = {digit: val for val, digit in enumerate(BASE_ENCODE)}
 
 
 def decode(digits, base):
-	"""Decode given digits in given base to number in base 10.
+	"""
+	Time complexity: O(n)
+	Decode given digits in given base to number in base 10.
 	digits: str -- string representation of number (in given base)
 	base: int -- base of given number
 	return: int -- integer representation of number (in base 10)"""
@@ -31,7 +33,9 @@ def decode(digits, base):
 
 """Thanks to Audi Blades for help with encode function"""
 def encode(number, base):
-	"""Encode given number in base 10 to digits in given base.
+	"""
+	Time complexity: O(n)
+	Encode given number in base 10 to digits in given base.
 	number: int -- integer representation of number (in base 10)
 	base: int -- base to convert to
 	return: str -- string representation of number (in given base)"""
@@ -53,7 +57,9 @@ def encode(number, base):
 
 def convert(digits, base1, base2):
 	
-	"""Convert given digits in base1 to digits in base2.
+	"""
+	Time complexity: O(n)
+	Convert given digits in base1 to digits in base2.
 	digits: str -- string representation of number (in base1)
 	base1: int -- base of given number
 	base2: int -- base to convert to
