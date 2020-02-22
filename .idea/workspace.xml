@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="af6a40c7-0096-46c6-8f42-f5654d11011e" name="Default Changelist" comment="">
+    <list default="true" id="af6a40c7-0096-46c6-8f42-f5654d11011e" name="Default Changelist" comment="palindromes added">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/abhishekkulkarni.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/palindromes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/palindromes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/binarytree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/binarytree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/hashtable.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/hashtable.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/linkedlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/linkedlist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/queue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/stack.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/stack.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Code/strings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/strings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/strings_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/strings_test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,11 +18,19 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1WxVjtRbgGGp6vTbMnZfFGphnsG" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -32,7 +46,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.palindromes">
+  <component name="RunManager" selected="Python tests.pytest in strings.py">
     <configuration name="palindromes" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CS-1.3-Core-Data-Structures" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -54,7 +68,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="recursion" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CS-1.3-Core-Data-Structures" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -66,7 +80,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Code/recursion.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Code/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -75,7 +89,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for recursion_test.RecursionTest.test_factorial_with_small_integers" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for linkedlist_test.LinkedListTest.test_get_at_index" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="CS-1.3-Core-Data-Structures" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -86,11 +100,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;recursion_test.RecursionTest.test_factorial_with_small_integers&quot;" />
+      <option name="_new_target" value="&quot;linkedlist_test.LinkedListTest.test_get_at_index&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for search_test.SearchTest.test_binary_search_with_items_in_list" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in linkedlist.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="CS-1.3-Core-Data-Structures" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -101,11 +115,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;search_test.SearchTest.test_binary_search_with_items_in_list&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Code/linkedlist.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in search_test.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in strings.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="CS-1.3-Core-Data-Structures" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -116,17 +130,17 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Code/search_test.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Code/strings.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in strings.py" />
+        <item itemvalue="Python tests.pytest for linkedlist_test.LinkedListTest.test_get_at_index" />
+        <item itemvalue="Python tests.pytest in linkedlist.py" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.palindromes" />
-        <item itemvalue="Python tests.pytest for search_test.SearchTest.test_binary_search_with_items_in_list" />
-        <item itemvalue="Python tests.pytest in search_test.py" />
-        <item itemvalue="Python.recursion" />
-        <item itemvalue="Python tests.pytest for recursion_test.RecursionTest.test_factorial_with_small_integers" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580951119017</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="palindromes added">
+      <created>1581496210535</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1581496210535</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -219,6 +240,7 @@
     <MESSAGE value="search done" />
     <MESSAGE value="Number bases and Search Algorithms done" />
     <MESSAGE value="Added Time Complexity" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Time Complexity" />
+    <MESSAGE value="palindromes added" />
+    <option name="LAST_COMMIT_MESSAGE" value="palindromes added" />
   </component>
 </project>
