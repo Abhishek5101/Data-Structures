@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="af6a40c7-0096-46c6-8f42-f5654d11011e" name="Default Changelist" comment="palindromes added">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/abhishekkulkarni.xml" afterDir="false" />
+    <list default="true" id="af6a40c7-0096-46c6-8f42-f5654d11011e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/binarytree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/binarytree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Code/hashtable.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/hashtable.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/linkedlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/linkedlist.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Code/queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/queue.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Code/stack.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/stack.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/strings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/strings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/strings_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/strings_test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -218,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581496210535</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Time and Space complexity added">
+      <created>1582413875297</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1582413875297</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -241,6 +243,7 @@
     <MESSAGE value="Number bases and Search Algorithms done" />
     <MESSAGE value="Added Time Complexity" />
     <MESSAGE value="palindromes added" />
-    <option name="LAST_COMMIT_MESSAGE" value="palindromes added" />
+    <MESSAGE value="Time and Space complexity added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Time and Space complexity added" />
   </component>
 </project>
