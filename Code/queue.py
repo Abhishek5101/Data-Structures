@@ -21,34 +21,34 @@ class LinkedQueue(object):
 	
 	def is_empty(self):
 		"""Return True if this queue is empty, or False otherwise."""
-		if self.list.size == 0:
-			return False
-		return True
-	
+		return self.list.length() == 0
+
 	def length(self):
 		"""Return the number of items in this queue."""
-		return self.list.size
+		return self.list.length()
 	
 	def enqueue(self, item):
 		"""Insert the given item at the back of this queue.
-		Running time: O(???) – Why? [TODO]"""
+		Running time: O(1) – we have tail pointer [TODO]"""
 		self.list.append(item)
 	
 	def front(self):
 		"""Return the item at the front of this queue without removing it,
 		or None if this queue is empty."""
-		if self.list.size == 0:
+		if self.is_empty():
 			return None
-		return self.list.head
+		return self.list.head.data
 	
 	def dequeue(self):
 		"""Remove and return the item at the front of this queue,
 		or raise ValueError if this queue is empty.
 		Running time: O(???) – Why? [TODO]"""
-		if self.list.size == 0:
+		if self.is_empty():
 			raise ValueError("Queue is Empty")
-		return self.list.delete(self.list.head)
-
+		dequeued_item = self.list.head.data
+		self.list.delete(dequeued_item)
+		return dequeued_item
+		
 
 # Implement ArrayQueue below, then change the assignment at the bottom
 # to use this Queue implementation to verify it passes all tests
@@ -68,7 +68,9 @@ class ArrayQueue(object):
 	
 	def is_empty(self):
 		"""Return True if this queue is empty, or False otherwise."""
-		return bool(len(self.list))
+		if not self.list:
+			return True
+		return False
 	
 	def length(self):
 		"""Return the number of items in this queue."""
@@ -76,22 +78,22 @@ class ArrayQueue(object):
 	
 	def enqueue(self, item):
 		"""Insert the given item at the back of this queue.
-		Running time: O(???) – Why? [TODO]"""
+		Running time: O(1) – No shifting needed [TODO]"""
 		self.list.append(item)
 	
 	def front(self):
 		"""Return the item at the front of this queue without removing it,
 		or None if this queue is empty."""
-		if bool(self.list) is False:
+		if self.is_empty():
 			return None
 		return self.list[0]
 	
 	def dequeue(self):
 		"""Remove and return the item at the front of this queue,
 		or raise ValueError if this queue is empty.
-		Running time: O(???) – Why? [TODO]"""
-		if len(self.list) == 0:
-			raise ValueError("Stack is Empty")
+		Running time: O(n) – Need to shift each item over each time it is called [TODO]"""
+		if self.is_empty():
+			raise ValueError("Queue is Empty")
 		return self.list.pop(0)
 
 
