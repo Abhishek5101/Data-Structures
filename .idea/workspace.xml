@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af6a40c7-0096-46c6-8f42-f5654d11011e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Code/sets_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/sets.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/sets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/sets_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/sets_test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -234,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583098282315</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Added Sets and its tests">
+      <created>1583184451434</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1583184451434</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -261,6 +267,7 @@
     <MESSAGE value="Hashtables added" />
     <MESSAGE value="sets starter code added" />
     <MESSAGE value="added Time and Space Complexity" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Time and Space Complexity" />
+    <MESSAGE value="Added Sets and its tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Sets and its tests" />
   </component>
 </project>
