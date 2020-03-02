@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af6a40c7-0096-46c6-8f42-f5654d11011e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Code/sets_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/binarytree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/binarytree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/sets.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/sets.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,28 +40,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in strings.py">
-    <configuration name="palindromes" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="CS-1.3-Core-Data-Structures" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Code" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Code/palindromes.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.pytest in sets.py">
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CS-1.3-Core-Data-Structures" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -112,6 +92,21 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in sets.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="CS-1.3-Core-Data-Structures" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Code/sets.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest in strings.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="CS-1.3-Core-Data-Structures" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -129,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in sets.py" />
         <item itemvalue="Python tests.pytest in strings.py" />
         <item itemvalue="Python tests.pytest for linkedlist_test.LinkedListTest.test_get_at_index" />
         <item itemvalue="Python tests.pytest in linkedlist.py" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.palindromes" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582779064014</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="added Time and Space Complexity">
+      <created>1583098282315</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1583098282315</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -258,6 +260,7 @@
     <MESSAGE value="Time and Space complexity added" />
     <MESSAGE value="Hashtables added" />
     <MESSAGE value="sets starter code added" />
-    <option name="LAST_COMMIT_MESSAGE" value="sets starter code added" />
+    <MESSAGE value="added Time and Space Complexity" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Time and Space Complexity" />
   </component>
 </project>
